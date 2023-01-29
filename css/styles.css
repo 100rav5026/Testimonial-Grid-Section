@@ -64,6 +64,10 @@ body{
   grid-row: 1/5;
   background-color: hsl(263, 55%, 52%);
   border-radius: 10px;
+  background-image: url('../images/quotation.svg');
+  background-repeat: no-repeat;
+  background-size: 135px;
+  background-position-x: 75%; 
 }
 
 .Jonathan{
@@ -102,16 +106,34 @@ body{
   border-radius: 10px;
 }
 
+.footer{
+  font-size: 25px;
+  position: relative;
+  top: 850px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 475px) {
   .testimonial{
     display: block;
     height: 2000px;
-    margin-top: 880px;
+    margin-top: 800px;
     overflow: auto;
     width: 90%; /* or any other width */
   }
 
   .Kira{
     margin-bottom: 100px;
+  }
+
+  .footer{
+    font-size: 25px;
+    position: relative;
+    top: 2050px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
